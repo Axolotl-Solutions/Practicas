@@ -23,7 +23,6 @@ public class Controlador {
         System.out.println("nombre -> " + nombre+"\n"+nombres);
         model.addAttribute("nombre", nombre);
         return "nombre";
-
     }
 
 }

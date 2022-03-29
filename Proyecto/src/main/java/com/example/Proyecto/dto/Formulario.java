@@ -1,4 +1,5 @@
 package com.example.Proyecto.dto;
+
 import lombok.Data;
 import lombok.ToString;
 
