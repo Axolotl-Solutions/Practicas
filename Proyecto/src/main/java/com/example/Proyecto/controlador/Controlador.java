@@ -18,13 +18,11 @@ public class Controlador {
 
     @PostMapping("/procesa")
     public String procesa(HttpServletRequest request, Model model ) {
-        String titulo = request.getParameter("titulo");
-        String nota = request.getParameter("nota");
-        System.out.println("titulo -> " + titulo);
-        System.out.println("nota -> " + nota);
-        model.addAttribute("titulo", "Nombre");
-        model.addAttribute("nota", "Fernando Gerardo Flores García");
-        return "final";
+        String nombres=" Axel David García Beltrán\n Camila Alexandra Cruz Miranda 316084707\n Fernando Gerardo Flores García\nIan Israel Garcia Vazquez";
+        String nombre = request.getParameter("nombre");
+        System.out.println("nombre -> " + nombre+"\n"+nombres);
+        model.addAttribute("nombre", nombre);
+        return "nombre";
     }
 
 }
