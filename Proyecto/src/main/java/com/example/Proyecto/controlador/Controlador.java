@@ -22,7 +22,7 @@ public class Controlador {
         String nombre = request.getParameter("nombre");
         System.out.println("nombre -> " + nombre + "\n" + nombres);
         model.addAttribute("nombre", nombre);
-        return "final";
+        return "nombre";
     }
 
 }
