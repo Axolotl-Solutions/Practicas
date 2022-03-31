@@ -6,6 +6,6 @@ import lombok.ToString;
 @Data
 @ToString
 public class Formulario {
-    private String dato;
-    private String otrodato;
+    private String nombre;
+    //private String otrodato;
 }
