@@ -60,18 +60,20 @@
           <h1>Bienvenido</h1>
           <div id="tarjeta">
             <form method="post" th:action="@{/procesa}">
-              <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input
-                  type="text"
-                  id="nombre"
-                  name="nombre"
-                  class="form-control"
-                  placeholder="Introduce tu nombre"
-                  required
-                />
+              <div class="mb-3" id="div">
+                <textarea id="nombre1" name="nombre1" class="form-control" style="height: 100px">
+                  Axel David García Beltrán
+                </textarea>
+                <textarea id="nombre2" name="nombre2" class="form-control" style="height: 100px">
+                  Camila Alexandra Cruz Miranda
+                </textarea>
+                <textarea id="nombre3" name="nombre3" class="form-control" style="height: 100px">
+                  Fernando Gerardo Flores García
+                </textarea>
+                <textarea id="nombre4" name="nombre4" class="form-control" style="height: 100px">
+                  Ian Israel Garcia Vazquez
+                </textarea>
               </div>
-
               <button style="margin-top: 14px" type="submit">Entrar</button>
             </form>
           </div>
